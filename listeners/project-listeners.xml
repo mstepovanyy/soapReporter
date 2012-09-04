@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-listeners xmlns:tns="http://eviware.com/soapui/config">
+
+<tns:listener id="ExtProjectListener" listenerClass="com.soap.ext.listener.ExtProjectListener"
+   listenerInterface="com.eviware.soapui.model.testsuite.ProjectRunListener" />
+</tns:soapui-listeners>
