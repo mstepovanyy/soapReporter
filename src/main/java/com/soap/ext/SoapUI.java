@@ -32,8 +32,8 @@ public class SoapUI {
 	public static String getAuthHeader(TestRunContext runContext, String secretArg, String apiIDArg, String authPrefArg,  int timeShift){
 		logger.logSoapUI(CustomLevel.INFO, "Generating Authentication header... ");
 		if (!(runContext instanceof TestCaseRunContext)) {
-			logger.logSoapUI(CustomLevel.ERROR, "Usage ->  Authorization: ${=com.lohika.SoapUI.getAuthHeader(context)}" );
-			return "Usage ->  Authorization: ${=com.lohika.SoapUI.getAuthHeader(context)}";
+			logger.logSoapUI(CustomLevel.ERROR, "Usage ->  Authorization: ${=com.soap.ext.SoapUI.getAuthHeader(context)}" );
+			return "Usage ->  Authorization: ${=com.soap.ext.SoapUI.getAuthHeader(context)}";
 		}
 		TestCaseRunContext context = (TestCaseRunContext) runContext;
 
