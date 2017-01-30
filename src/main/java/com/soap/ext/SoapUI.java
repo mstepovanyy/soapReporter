@@ -32,7 +32,6 @@ public class SoapUI {
 	
 	/**
 	 * Receive date for current request
-	 * E.g. -   Date : "${=com.lohika.SoapUI.getDate(context)}"
 	 * @param context
 	 * @return Date
 	 */
@@ -43,7 +42,6 @@ public class SoapUI {
 	
 	/**
 	 * Receive date for current request
-	 * E.g. -   Date : "${=com.lohika.SoapUI.getDate(context)}"
 	 * @param context
 	 * @return Date
 	 */
